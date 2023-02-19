@@ -1,9 +1,18 @@
 {
-    "compilerOptions": {
-      "target": "es5",
-      "module": "commonjs",
-      "sourceMap": true,
-      "sourceRoot": "./src",
-      "outDir": "./dist"
-    }
-  }
+  "compilerOptions": {
+    "target": "es6",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "removeComments": true,
+    "declaration": true,
+    "strictNullChecks": true
+  },
+  "include": [
+    "src",
+    "tests"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
