@@ -1,0 +1,14 @@
+{
+  "name": "repmax-calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc src/index.ts"
+  },
+  "author": "Viktoras Bezaras",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
