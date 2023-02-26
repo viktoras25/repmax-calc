@@ -13,7 +13,7 @@ npm install repmax-calc
 ```javascript
 import { RepCalculator } from 'repmax-calc'
 
-const calc = new RepCalculator
+const calc = new RepCalculator()
 
 calc.getOneRepMaxAverage(80, 6)
 calc.getOneRepMax(Formula.Brzycki, 100, 8)

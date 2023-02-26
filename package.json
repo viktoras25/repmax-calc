@@ -29,7 +29,7 @@
   "scripts": {
     "build": "parcel build",
     "lint": "ts-standard",
-    "fix": "ts-standard --fix",
+    "fmt": "ts-standard --fix",
     "test": "ts-mocha ./tests/**/*.ts"
   },
   "devDependencies": {
