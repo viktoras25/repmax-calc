@@ -3,7 +3,7 @@ import { it } from 'mocha'
 import { RepCalculator } from '../src/RepCalculator'
 import { Formula } from '../src/Formulas/Formula'
 
-const calc = new RepCalculator()
+const calc = new RepCalculator
 
 it('Adams one rep max', () => {
   assert.closeTo(calc.getOneRepMax(Formula.Adams, 100, 5), 111.111, 0.001)

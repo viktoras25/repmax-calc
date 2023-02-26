@@ -22,6 +22,10 @@
   "ts-standard": {
     "ignore": ["dist"]
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "parcel build",
     "lint": "ts-standard",
