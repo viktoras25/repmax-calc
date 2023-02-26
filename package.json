@@ -2,20 +2,31 @@
   "name": "repmax-calc",
   "version": "0.1.0",
   "description": "A library to calculate one rep max",
+  "author": "Viktoras Bezaras",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viktoras25/repmax-calc.git"
+  },
+  "keywords": [
+    "one-rep-max",
+    "1rm",
+    "fitness",
+    "brzycki",
+    "epley"
+  ],
+  "type": "module",
+  "source": "src/index.ts",
+  "main": "dist/repmax-calc.js",
+  "types": "dist/repmax-calc.d.ts",
+  "ts-standard": {
+    "ignore": ["dist"]
+  },
   "scripts": {
     "build": "parcel build",
     "lint": "ts-standard",
     "fix": "ts-standard --fix",
     "test": "ts-mocha ./tests/**/*.ts"
-  },
-  "author": "Viktoras Bezaras",
-  "license": "MIT",
-  "type": "module",
-  "source": "src/RepCalculator.ts",
-  "main": "dist/rep-calc.js",
-  "types": "dist/rep-calc.d.ts",
-  "ts-standard": {
-    "ignore": ["dist"]
   },
   "devDependencies": {
     "@parcel/packager-ts": "^2.8.3",
